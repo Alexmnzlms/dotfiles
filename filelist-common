@@ -1,0 +1,4 @@
+.zshrc
+.vimrc
+.gitconfig
+.config/nvim/*

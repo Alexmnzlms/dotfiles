@@ -1,0 +1,7 @@
+[user]
+	name = Alexmnzlms
+	email = alexmanza2@gmail.com
+[core]
+	editor = nvim
+[init]
+	defaultBranch = main
