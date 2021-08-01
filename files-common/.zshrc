@@ -39,8 +39,6 @@ alias sudo="sudo "
 alias t="tree -a"
 alias tt="tree"
 
-#alias ytdl="youtube-dl -f bestvideo+bestaudio -o '~/Videos/YouTube/%(title)s.%(ext)s'"
-#alias ytdlm="youtube-dl -x --audio-format mp3 -o '~/Music/_new/%(title)s.%(ext)s'"
 #alias ptc="source /opt/anaconda/bin/activate spyder-env"
 
 alias gc="git checkout"
@@ -66,6 +64,7 @@ alias dcsh="~/discord.sh &"
 alias dc="discord &"
 alias update="yay -Syu"
 alias uninstall="yay -Rncs"
+alias vim="nvim"
 
 eval $(thefuck --alias)
 
