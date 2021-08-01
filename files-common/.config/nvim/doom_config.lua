@@ -63,7 +63,7 @@ local doom = {
 	-- false : disables show mode
 	-- true  : enables show mode
 	-- @default = false
-	show_mode = false,
+	show_mode = true,
 
 	-- Enable scroll off
 	-- false : disables scroll off
@@ -129,7 +129,7 @@ local doom = {
 	-- false : spaces
 	-- true  : tabs
 	-- @default = true
-	expand_tabs = true,
+	expand_tabs = false,
 
 	-- Set numbering
 	-- false : Shows absolute number lines
@@ -174,7 +174,7 @@ local doom = {
 
 	-- Default indent size
 	-- @default = 4
-	indent = 4,
+	indent = 3,
 
 	-- Set max cols
 	-- Defines the column to show a vertical marker
@@ -204,7 +204,7 @@ local doom = {
 	-- Set the Terminal height
 	-- Applies to all directions except window
 	-- @default = 20
-	terminal_height = 20,
+	terminal_height = 10,
 
 	-- Conceal level
 	-- Set Neovim conceal level
@@ -276,7 +276,7 @@ local doom = {
 	-- Set gui fonts here
 	-- @default = "FiraCode Nerd Font", @default font size = 15,
 	-- WARNING: Font sizes must be in string format!
-	guifont = 'FiraCode Nerd Font',
+	guifont = 'Roboto Mono',
 	guifont_size = '15',
 
 	-- change Which Key background color
@@ -320,7 +320,11 @@ local nvim = {
 	--   augroup_name = {
 	--      { 'BufNewFile,BufRead', 'doomrc', 'set ft=lua'}
 	--   }
-	autocmds = {},
+	autocmds = {
+			au_tabs = {
+				{'BufEnter', '*', ':setlocal shiftwidth=0 tabstop=3 noexpandtab'}
+			}
+	},
 
 	-- Set custom key bindings
 	-- @default = {}
@@ -333,7 +337,11 @@ local nvim = {
 	--     'n' is the map scope
 	--     'ca' is the map activator
 	--     ':Lspsaga ...' is the command to be executed
-	mappings = {},
+	mappings = {
+		{'v', '<Tab>', ">gv"},
+		{'v', '<S-Tab>', "<gv"},
+		{'v', '<C-c>', "\"+y"}
+	},
 
 	-- Set custom commands
 	-- @default = {}

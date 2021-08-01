@@ -28,10 +28,10 @@ local doom = {
 	},
 	editor = {
 		'auto-session',    -- A small automated session manager for Neovim
-		-- 'terminal',     -- Terminal for Neovim (NOTE: needed for runner and compiler)
+		'terminal',     -- Terminal for Neovim (NOTE: needed for runner and compiler)
 		'explorer',        -- Tree explorer
 		'symbols',         -- LSP symbols and tags
-		-- 'minimap',      -- Code minimap, requires github.com/wfxr/code-minimap
+		'minimap',      -- Code minimap, requires github.com/wfxr/code-minimap
 		'gitsigns',        -- Git signs
 		'telescope',       -- Highly extendable fuzzy finder over lists
 		-- 'restclient',   -- A fast Neovim http client
@@ -51,16 +51,16 @@ local doom = {
 		-- 'css',         -- CSS support
 		-- 'javascript',  -- JavaScript support
 		-- 'typescript',  -- TypeScript support
-		-- 'bash',        -- The terminal gods language
-		-- 'python +lsp', -- Python support + lsp
+		'bash',        -- The terminal gods language
+		'python +lsp', -- Python support + lsp
 		-- 'ruby',        -- Look ma, I love the gems!
 		'lua',            -- Support for our gods language
 		-- 'elixir',      -- Build scalable and maintainable software
 		-- 'haskell',     -- Because Functional programming is fun, isn't it?
 
-		-- 'rust +lsp',   -- Let's get rusty!
+		'rust +lsp',   -- Let's get rusty!
 		-- 'go',          -- Hello, gopher
-		-- 'cpp',         -- C++ support
+		'cpp +lsp',         -- C++ support
 		-- 'java',        -- Java support
 
 		-- 'config',      -- Configuration files (JSON, YAML, TOML)
