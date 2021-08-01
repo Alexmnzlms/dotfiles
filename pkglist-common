@@ -1,3 +1,4 @@
+adobe-source-han-sans-otc-fonts
 amd-ucode
 android-tools
 antigen
@@ -17,6 +18,7 @@ cheese
 chrome-gnome-shell
 cmake
 code
+code-minimap
 discord
 discord-canary
 efibootmgr
@@ -137,6 +139,7 @@ tracker3
 tracker3-miners
 ttf-nerd-fonts-symbols
 ttf-roboto
+ttf-roboto-mono
 update-grub
 vim
 vino
