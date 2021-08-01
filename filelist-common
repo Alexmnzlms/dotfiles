@@ -1,4 +1,6 @@
 .zshrc
 .vimrc
 .gitconfig
-.config/nvim/*
+.config/nvim/plugins.lua
+.config/nvim/doomrc.lua
+.config/nvim/doom_config.lua
