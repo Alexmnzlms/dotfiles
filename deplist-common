@@ -1,3 +1,2 @@
-curl -L git.io/antigen > ~/antigen.zsh
 curl -sLf https://raw.githubusercontent.com/NTBBloodbath/doom-nvim/main/install.sh | bash
 curl -fLo dotfiler.sh https://gitlab.com/Groctel/dotfiles-manager/-/raw/main/dotfiler.sh
