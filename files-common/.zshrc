@@ -74,6 +74,11 @@ eval $(thefuck --alias)
 #eval "$(starship init zsh)"
 
 # Constants exporting
+
+if [ -d "$HOME/.local/bin" ] ; then
+		PATH="$HOME/.local/bin:$PATH"
+fi
+
 #export PATH=$HOME/.config/scripts/path:$PATH
 #export HOSTNAME="manzapc"
 #export PF_INFO="ascii title os kernel wm pkgs shell uptime"
