@@ -1,6 +1,6 @@
 # ANTIGEN SETTINGS
 
-source ~/.antigen.zsh
+source /usr/share/zsh/share/antigen.zsh
 
 antigen use oh-my-zsh
 
@@ -41,14 +41,6 @@ alias tt="tree"
 
 #alias ptc="source /opt/anaconda/bin/activate spyder-env"
 
-alias gc="git checkout"
-alias gb="git branch"
-alias ga="git add"
-alias gs="git status"
-alias gr="git restore"
-alias grm="git rm"
-alias gcm="git commit"
-
 alias cat="bat"
 alias antonio="make"
 alias tutorias="man"
@@ -64,7 +56,6 @@ alias dcsh="~/discord.sh &"
 alias dc="discord &"
 alias update="yay -Syu"
 alias uninstall="yay -Rncs"
-alias vim="nvim"
 
 eval $(thefuck --alias)
 

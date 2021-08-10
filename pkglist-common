@@ -1,7 +1,7 @@
 adobe-source-han-sans-otc-fonts
 amd-ucode
 android-tools
-antigen
+antigen-git
 atom
 autoconf
 automake
@@ -98,6 +98,7 @@ mutter
 nautilus
 neofetch
 neovim
+neovim-symlinks
 networkmanager
 noto-fonts
 noto-fonts-cjk

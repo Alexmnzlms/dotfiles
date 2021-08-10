@@ -1,6 +1,7 @@
 adobe-source-han-sans-otc-fonts
 android-tools
 android-udev
+antigen-git
 atom
 audacity
 autoconf
@@ -136,6 +137,7 @@ mutter
 nautilus
 neofetch
 neovim
+neovim-symlinks
 networkmanager
 notion-app
 noto-fonts
