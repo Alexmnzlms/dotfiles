@@ -5,13 +5,13 @@
 set -e
 
 if [[ $1 == 'backup' ]]; then
-  dconf dump '/org/gnome/desktop/wm/keybindings/' > gnome-keybindings.dconf
+  # dconf dump '/org/gnome/desktop/wm/keybindings/' > gnome-keybindings.dconf
   dconf dump '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/' > gnome-custom-keybindings.dconf
   echo "backup done"
   exit 0
 fi
 if [[ $1 == 'restore' ]]; then
-  dconf load '/org/gnome/desktop/wm/keybindings/' < gnome-keybindings.dconf
+  # dconf load '/org/gnome/desktop/wm/keybindings/' < gnome-keybindings.dconf
   dconf load '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/' < gnome-custom-keybindings.dconf
   echo "restore done"
   exit 0
